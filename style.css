@@ -2,23 +2,22 @@ body{
     margin: 0%;
     background-color: hsl(225, 100%, 94%);
     font-family: Red Hat Display;
+    
 }
 p{
     display: inline-block;
     margin: 2px;
 }
 .card-container{
-    margin-left: 35%;
-    margin-top: -25%;
+    margin: auto;
     display: flex;
     flex-direction: column;
-    width: 28rem;
+    width: 30rem;
     text-align: center;
     border-radius: 10px;
     border: none;
     padding-left: 0;
     background-color: white;
-    position: relative;
    
 }
 .bottom-section{
@@ -78,23 +77,11 @@ button{
 
 
 
-@media (max-width:375px){
-    .desktop-background{
-        display:none;
-    }
-    .card-container{
-        
-        margin-top: -10rem;
-        margin-left: 0rem;
-        
-    }
-    .mobile-background{
-        margin-left: 5px;
-        width: 30rem;
-    }
-}
+
 @media (min-width:376px){
-    .mobile-background{
-        display:none;
-    }
+   body{
+       background-image: url('images/pattern-background-desktop.svg');
+       background-position: top;
+       background-repeat: no-repeat;
+   }
 }
