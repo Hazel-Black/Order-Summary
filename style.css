@@ -89,4 +89,8 @@ button{
        background-position: top;
        background-repeat: no-repeat;
    }
+   .card-container{
+       margin: auto;
+       margin-top: 175px;
+   }
 }
