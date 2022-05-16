@@ -25,6 +25,10 @@ p{
 }
 .bottom-section{
     margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .annual-plan-container{
     display: flex;
@@ -104,15 +108,9 @@ button{
    .card-container{
        margin: auto;
        margin-top: 175px;
-       width: 25rem;
+       width: 22rem;
    }
    .annual-plan{
     margin-right: 0;
    }
-   .bottom-section{
-   display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 }
