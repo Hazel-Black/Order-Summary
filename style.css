@@ -39,7 +39,7 @@ p{
 
 }
 button{
-    margin:  10px;
+    margin:20px;
     padding: 10px 50px;
     border-radius: 10px;
     border: none;
@@ -79,6 +79,15 @@ button{
     border-radius: 10px;
     
 }
+.attribution{
+    font-size: 11px;
+    text-align: center;
+
+}
+.attribution a{
+    color: hsl(245, 75%, 52%);
+}
+
 
 
 
@@ -92,5 +101,15 @@ button{
    .card-container{
        margin: auto;
        margin-top: 175px;
+       width: 25rem;
    }
+   .annual-plan{
+    margin-right: 0;
+   }
+   .bottom-section{
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 }
