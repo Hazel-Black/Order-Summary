@@ -1,0 +1,100 @@
+body{
+    margin: 0%;
+    background-color: hsl(225, 100%, 94%);
+    font-family: Red Hat Display;
+}
+p{
+    display: inline-block;
+    margin: 2px;
+}
+.card-container{
+    margin-left: 35%;
+    margin-top: -25%;
+    display: flex;
+    flex-direction: column;
+    width: 28rem;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    padding-left: 0;
+    background-color: white;
+    position: relative;
+   
+}
+.bottom-section{
+    margin: 30px;
+}
+.annual-plan-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    padding: 20px ;
+    height: 40px;
+    margin: 20px;
+
+}
+button{
+    margin: 30px 5px;
+    padding: 15px 140px;
+    border-radius: 10px;
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: bold;
+    font-family: Red Hat Display;
+    box-shadow: 1px 15px 10px 1px rgba(56, 41, 224,.15);
+}
+.title{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: x-large;
+    
+}
+.description{
+    color: hsl(224, 23%, 55%);
+    margin: 20px 50px;
+}
+.annual-plan{
+    margin-left: -110px;
+    color: hsl(223, 47%, 23%);
+    font-size: large;
+    font-weight: 900;
+}
+.price{
+    margin-left: -110px;
+    color: hsl(224, 23%, 55%);
+}
+.cancel{
+    color: hsl(224, 23%, 55%);
+}
+.hero{
+    object-fit: fill;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+
+
+@media (max-width:375px){
+    .desktop-background{
+        display:none;
+    }
+    .card-container{
+        
+        margin-top: -10rem;
+        margin-left: 0rem;
+        
+    }
+    .mobile-background{
+        margin-left: 5px;
+        width: 30rem;
+    }
+}
+@media (min-width:376px){
+    .mobile-background{
+        display:none;
+    }
+}
